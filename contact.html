@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact With Us</title>
+    <link rel="stylesheet" href="s.css">
+
+    <style>
+        a{
+            text-decoration: none;
+        }
+        button{
+            background: rgba(225, 104, 104, 0.642);
+            color: black;
+            border: 0px;
+             font-weight: 900;
+            opacity: 0.7;
+            border-radius: 8%;
+        }
+        
+        a:checked{
+            color : red;
+        }
+        button:hover{
+            opacity: 1;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div class="container">
+    <form >
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="germany">Germany</option>
+        <option value="england">England</option>
+        <option value="usa">USA</option>
+        <option value="turkey">Turkey</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+  <button class="but2"><a class="a2"  href= "i.html">Back Home</a></button>
+      
+</body>
+</html>
